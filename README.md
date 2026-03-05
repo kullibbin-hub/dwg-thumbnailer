@@ -1,4 +1,11 @@
 Скрипт реализует создание превью для файлов формата .dwg для Nautilus. Проверен в Altlinux Workstation 11.1, возможно будет работать в Ubuntu.
+Для Altlinux надо включить sudo. В терминале:
+
+su -
+
+пароль
+
+control sudowheel enabled
 
 Скрипт создает два файла /usr/local/bin/dwg-thumbnail.sh и /usr/share/thumbnailers/dwg.thumbnailer, скачивает NConvert и распаковывает его в /usr/local.
 
